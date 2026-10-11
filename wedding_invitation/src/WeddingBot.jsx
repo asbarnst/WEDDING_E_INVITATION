@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from 'react';
 /* ─── Wedding Knowledge Base ─── */
 const WEDDING_KB = {
   couple: {
-    bride: 'M. Shabana Arshi',
+    bride: 'M. Shabana Arshee',
     groom: 'B. Kalith',
   },
   event: {
@@ -131,7 +131,7 @@ function generateReply(input) {
   }
 
   // ── Bride ──
-  if (/\b(bride|shabana|girl|she|her)\b/.test(q)) {
+  if (/\b(bride|shabana|arshee|arshi|girl|she|her)\b/.test(q)) {
     return `🌹 **The Bride:**\n\n**${couple.bride}**\n\nMay Allah bless her with happiness and a beautiful Nikah. Masha Allah! 💛`;
   }
 

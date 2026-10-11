@@ -143,7 +143,7 @@ function Hero() {
         </div>
 
         <div className="hero-names">
-          <span className="hero-bride-name shimmer-text">Shabana Arshi</span>
+          <span className="hero-bride-name shimmer-text">M. Shabana Arshee</span>
           <span className="hero-and">و</span>
           <span className="hero-groom-name shimmer-text">B. Kalith</span>
         </div>
@@ -184,10 +184,10 @@ function CoupleSection() {
         {/* Bride */}
         <div className="couple-card reveal" ref={ref1}>
           <div className="photo-frame bride-frame">
-            <img src="/bride.jpg" alt="M. Shabana Arshi – Bride" loading="lazy" style={{ objectPosition: 'top center' }} />
+            <img src="/bride.jpg" alt="M. Shabana Arshee – Bride" loading="lazy" style={{ objectPosition: 'top center' }} />
           </div>
           <p className="couple-role">✦ The Bride ✦</p>
-          <h3 className="couple-name">M. Shabana Arshi</h3>
+          <h3 className="couple-name">M. Shabana Arshee</h3>
         </div>
 
         {/* Center Symbol */}
@@ -220,25 +220,25 @@ function GallerySection() {
   const photos = [
     {
       src: '/engagement5.jpg',
-      alt: 'M. Shabana Arshi & B. Kalith – Royal Engagement Portrait',
+      alt: 'M. Shabana Arshee & B. Kalith – Royal Engagement Portrait',
       title: 'Royal Elegance',
-      subtitle: 'M. Shabana Arshi & B. Kalith',
+      subtitle: 'M. Shabana Arshee & B. Kalith',
     },
     {
       src: '/engagement3.jpg',
-      alt: 'M. Shabana Arshi & B. Kalith – Joyful Dance',
+      alt: 'M. Shabana Arshee & B. Kalith – Joyful Dance',
       title: 'Joy & Celebration',
       subtitle: 'Twirling into Forever',
     },
     {
       src: '/engagement1.jpg',
-      alt: 'M. Shabana Arshi & B. Kalith – Hand in Hand',
+      alt: 'M. Shabana Arshee & B. Kalith – Hand in Hand',
       title: 'Eternal Bond',
       subtitle: 'Hand in Hand',
     },
     {
       src: '/engagement4.jpg',
-      alt: 'M. Shabana Arshi & B. Kalith – Sweet Embrace',
+      alt: 'M. Shabana Arshee & B. Kalith – Sweet Embrace',
       title: 'Tender Embrace',
       subtitle: 'United in Hearts',
     },
@@ -362,7 +362,7 @@ function DetailsSection() {
     { icon: '📅', label: 'Date', value: '13th December', sub: '2026 • Sunday' },
     { icon: '🏛️', label: 'Mahal / Venue', value: 'The Radnej Convention', sub: 'Agaram, Dindigul' },
     { icon: '🕌', label: 'Occasion', value: 'Nikah Ceremony', sub: 'Islamic Marriage' },
-    { icon: '🌹', label: 'Bride', value: 'M. Shabana Arshi', sub: 'Daughter of the Family' },
+    { icon: '🌹', label: 'Bride', value: 'M. Shabana Arshee', sub: 'Daughter of the Family' },
     { icon: '✨', label: 'Groom', value: 'B. Kalith', sub: 'Son of the Family' },
   ];
 
@@ -547,7 +547,7 @@ function InvitationMessage() {
       <div className="rsvp-message reveal" ref={ref}>
         <p>
           With hearts full of gratitude and joy, we invite you to join us as we celebrate
-          the union of <strong style={{ color: 'var(--gold-primary)' }}>M. Shabana Arshi</strong> and{' '}
+          the union of <strong style={{ color: 'var(--gold-primary)' }}>M. Shabana Arshee</strong> and{' '}
           <strong style={{ color: 'var(--gold-primary)' }}>B. Kalith</strong> in the holy bond of
           Nikah on the blessed occasion of{' '}
           <strong style={{ color: 'var(--cream)' }}>13th December, 2026</strong>.
